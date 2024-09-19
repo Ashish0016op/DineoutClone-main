@@ -1,0 +1,48 @@
+.deb-div{
+    width: 44%;
+    margin: auto;
+    border: 1px solid black;
+    position: fixed;
+    top: 8%;
+    padding: 8px;
+    z-index: 3000;
+    gap: 5px;
+    left: 34%;
+    overflow-y: scroll;
+   display: none;
+    border-radius: 10px;
+  
+    background-color: whitesmoke;
+}
+.deb-inner-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.deb-inner-div>div img{
+    width: 100px;
+    height: 50px;
+}
+
+
+@media (max-width: 1135px) {
+  
+    .deb-div{
+      width: 44%;
+      margin: auto;
+      border: 1px solid black;
+      position: fixed;
+      top: 8%;
+      padding: 8px;
+      z-index: 3000;
+      gap: 5px;
+      left: 26%;
+      overflow-y: scroll;
+     display: none;
+      border-radius: 10px;
+      background-color: whitesmoke;
+  }
+  }

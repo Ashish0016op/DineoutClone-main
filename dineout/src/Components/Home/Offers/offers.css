@@ -1,0 +1,83 @@
+.best-offers {
+    display: flex;
+    background-color: #f3f3f3;
+    /* margin-top: -20px; */
+    font-family: "Metropolis",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    padding: 40px 0px;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+/* .best-offers-section-div {
+    margin-left: 180px;
+}  */
+
+.best-offers-section-div h2 {
+    font-size: 24px;
+}
+
+.offers-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.offer-image-div {
+    box-shadow: 2px 4px 5px 0 rgb(204 199 198 / 40%);
+    border-radius: 5px;
+    height: 163px;
+    overflow: hidden;
+    padding: 0 15px 10px 0;
+    position: relative;
+    width: 123px;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    margin-right: 10px;
+}
+
+.best-offers-section-div img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    width: 123px;
+    height: 163px;
+    opacity: 1;
+    aspect-ratio: auto 134 / 180;
+}
+
+.get-app-section {
+   padding-left: 20px;
+   padding-right: 20px;
+    margin-top: 20px;
+}
+
+.get-app-section h1 {
+    font-size: 24px;
+    font-weight: 200;
+    color: #ff645a;
+}
+
+.get-app-section h4 {
+    font-size: 16.38px;
+    color: #ff645a;
+}
+
+.get-app-section p {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: -15px;
+}
+
+.get-app-images img {
+    margin-right: 30px;
+}
+
+/* @media (max-width: 1024px) {
+    .get-app-section {
+        display: none;
+    }
+    
+} */

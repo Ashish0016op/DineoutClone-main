@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, coral);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #00c6ff);
+}
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000;
+  --secound-color: #a09dab;
+  --main-color: #f75023;
+  --big-font: 5rem;
+  --h2-font: 3rem;
+  --p-font: 1.1rem;
+}
+@media (max-width:415px){
+  .gifimg{
+    position: fixed;
+   bottom: 50%;
+   left: 2%;
+   height: 120px;
+   width: 120px;
+}
+}
